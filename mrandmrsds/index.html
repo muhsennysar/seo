@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr and Mrs D's: Your Ultimate Online Sex Toy Store in Australia</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    padding: 2rem 1rem;
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+h2, h3 {
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 5px solid #3498db;
+    transition: background 0.3s ease-in-out;
+}
+
+ul li:hover {
+    background: #e6f7ff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem;
+}
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Discover Pleasure with Mr and Mrs D's</h1>
+    </header>
+    <main class="content">
+        <section>
+            <img src="https://www.mrandmrsds.com.au/cdn/shop/files/20230204_192244_00001.webp?v=1692674209" alt="Mr and Mrs D's">
+            <p>
+                In the vibrant heart of the Gold Coast, Mr and Mrs D's stands as a beacon of sexual wellness and exploration. Catering to the diverse needs of individuals and couples alike, this online sex toy store has quickly become Australia's go-to destination for those seeking high-quality and safe products to enhance their intimate lives.
+            </p>
+            <h2>A Diverse Range for Every Desire</h2>
+            <p>
+                At Mr and Mrs D's, we pride ourselves on offering a carefully curated selection of sex toys that cater to a wide array of desires and preferences. Our collection includes:
+            </p>
+            <ul>
+                <li>Vibrators: From classic designs to innovative models, our vibrators are designed to provide intense pleasure and satisfaction.</li>
+                <li>Cock Rings: Enhance your performance and experience with our range of cock rings, crafted to extend pleasure for both partners.</li>
+                <li>Prostate Massagers: Explore new realms of pleasure with our selection of prostate massagers, designed to provide a unique and deeply satisfying experience.</li>
+                <li>Anal Sex Toys: Whether you're a beginner or an experienced user, our anal sex toys offer a safe and pleasurable way to explore new sensations.</li>
+                <li>Bondage Toys: Indulge your fantasies and add a touch of excitement to your intimate moments with our range of bondage toys.</li>
+            </ul>
+            <p>
+                We prioritize safety and quality, sourcing all our products from reputable suppliers to ensure that you receive the best possible experience.
+            </p>
+            <h2>A Discreet and Inclusive Shopping Experience</h2>
+            <p>
+                At Mr and Mrs D's, we understand the importance of privacy and discretion. Our online store is designed to provide a judgment-free shopping experience, allowing you to explore and purchase products in complete confidence. Whether you're shopping solo or with a partner, our inclusive approach ensures that everyone can find something to enhance their intimate moments.
+            </p>
+            <h2>Best Sellers and New Arrivals</h2>
+            <p>
+                Our best-selling products are a testament to the quality and satisfaction that Mr and Mrs D's delivers. Popular items such as the Wicked Aqua Strawberry Lubricant and the M for Men The Torch - Pussy Masturbator have garnered rave reviews for their effectiveness and value for money. We continually update our inventory with new arrivals, ensuring that you have access to the latest and greatest in sexual wellness products.
+            </p>
+            <h2>Commitment to Sexual Wellness and Education</h2>
+            <p>
+                Beyond providing a wide range of products, Mr and Mrs D's is dedicated to promoting sexual wellness and education. Our blog and forum offer a wealth of information, advice, and personal stories to help you navigate your journey towards sexual fulfillment. From tips on using our products to discussions on sexual health, our resources are designed to empower you with knowledge and confidence.
+            </p>
+            <h2>Shop with Confidence</h2>
+            <p>
+                Shopping at Mr and Mrs D's is easy and convenient. Our website is user-friendly, allowing you to browse through categories and find exactly what you're looking for. With options like click & collect, discreet shipping, and secure payment methods, we ensure a hassle-free shopping experience from start to finish.
+            </p>
+            <h2>Join the Mr and Mrs D's Community</h2>
+            <p>
+                Sign up for our newsletter to receive exclusive deals, special offers, and updates on new products. Join the growing community of satisfied customers who trust Mr and Mrs D's for all their sexual wellness needs.
+            </p>
+            <p>
+                Discover the pleasure and satisfaction that awaits you at <a href="http://www.mrandmrsds.com.au">Mr and Mrs D's</a>. Visit www.mrandmrsds.com.au today and take the first step towards enhancing your intimate moments.
+            </p>
+        </section>
+    </main>
+    <script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Header animation
+    gsap.from(".header", {
+        duration: 1.5,
+        y: -100,
+        opacity: 0,
+        ease: "bounce"
+    });
+
+    // Content animation
+    gsap.utils.toArray('.content section img, .content section p, .content section h2, .content section ul, .content section ul li').forEach(element => {
+        gsap.from(element, {
+            scrollTrigger: {
+                trigger: element,
+                start: "top 90%",
+                end: "bottom 60%",
+                toggleActions: "play none none reset"
+            },
+            opacity: 0,
+            y: 20,
+            duration: 0.6,
+            ease: "power3.out"
+        });
+    });
+});
+
+  
+  </script>
+</body>
+</html>
